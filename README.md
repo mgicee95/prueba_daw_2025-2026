@@ -1,4 +1,4 @@
-<?php
+php
 // Si el usuario presiona "Limpiar"
 if (isset($_GET['clear']) && $_GET['clear'] == 'y') {
     setcookie('estilo', '', time() - 3600, '/'); // Borrar cookie
@@ -17,7 +17,6 @@ if (isset($_POST['estilo'])) {
 
 // Comprobar si existe cookie de estilo, si no, usar "default"
 $estilo = isset($_COOKIE['estilo']) ? $_COOKIE['estilo'] : 'default';
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
