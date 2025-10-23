@@ -1,4 +1,4 @@
-
+<!-- <?php
 // Si el usuario presiona "Limpiar"
 if (isset($_GET['clear']) && $_GET['clear'] == 'y') {
     setcookie('estilo', '', time() - 3600, '/'); // Borrar cookie
@@ -50,5 +50,11 @@ $estilo = isset($_COOKIE['estilo']) ? $_COOKIE['estilo'] : 'default';
     <h2>Duis quis accumsan eros, sit amet luctus urna</h2>
     <p>
         Sed semper convallis diam, sed feugiat felis iaculis eget. <strong>Proin a varius</strong> magna, ac bibendum lectus. Curabitur at tristique urna. Duis ut feugiat magna. Pellentesque volutpat urna sed lacinia aliquam. Aenean at est lacus. Pellentesque orci ex, tincidunt non purus sit amet, finibus hendrerit arcu. In vitae ante et nisl semper hendrerit.
+    </p>
+</body>
+</html> -->
+
+
+        Sed semper convallis diam, sed feugiat felis iaculis eget. <](url)strong>Proin a varius</strong> magna, ac bibendum lectus. Curabitur at tristique urna. Duis ut feugiat magna. Pellentesque volutpat urna sed lacinia aliquam. Aenean at est lacus. Pellentesque orci ex, tincidunt non purus sit amet, finibus hendrerit arcu. In vitae ante et nisl semper hendrerit.
     </p>
 </body>
